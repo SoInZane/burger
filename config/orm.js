@@ -1,5 +1,5 @@
 // sets connection to use the connection.js file
-var connection = require("./connection");
+var connection = require("./connection.js");
 
 var orm = {
 

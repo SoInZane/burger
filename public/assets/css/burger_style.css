@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-size: cover;
+    background-image: url('../../assets/img/burger.PNG') no-repeat 50% 50% fixed;;
+}
+
+h1 {
+    margin: auto 0;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+#avail {
+    float: left;
+    margin-right: 6%;
+    margin-left: 10%;
+
+
+}
+
+#devoured {
+    float: left;
+
+}
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+
+#add {
+    clear: both;
+    margin-left: 25%;
+}

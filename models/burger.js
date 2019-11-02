@@ -1,5 +1,5 @@
 // import the ORM from orm.js to interact with the db using the following functions
-var orm = require("../config/orm");
+var orm = require("../config/orm.js");
 
 var burger = {
     selectAll: function (cb) {

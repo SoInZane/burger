@@ -15,12 +15,12 @@ app.use(bodyParser.json());
 
 // Set Handlebars
 var exphbs = require("express-handlebars");
-//sets main.handlebars as the default layout and our view engine as handlebar
+// sets main.handlebars as the default layout and our view engine as handlebar
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 //import routes and give the server access to them
-var routes = require("./controllers/burgersController.js");
+var routes = require("./controllers/burgers_controllers.js");
 
 app.use(routes);
 
